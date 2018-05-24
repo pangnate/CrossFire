@@ -50,7 +50,7 @@ function CrossFire(opt) {
 
     // 如果不支持 JSON 对象，则需要加载 json2.js
     if (!window.JSON) {
-        this.loadScript('//res.suning.cn/public/v5/js/json2/1.0.0/json2.js');
+        this.loadScript('../json2.js');
     }
 
     // 处理允许的源
